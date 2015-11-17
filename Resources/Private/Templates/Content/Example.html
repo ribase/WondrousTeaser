@@ -1,0 +1,43 @@
+<div xmlns="http://www.w3.org/1999/xhtml" lang="en"
+	 xmlns:f="http://typo3.org/ns/fluid/ViewHelpers"
+	 xmlns:flux="http://typo3.org/ns/FluidTYPO3/Flux/ViewHelpers"
+	 xmlns:v="http://typo3.org/ns/FluidTYPO3/Vhs/ViewHelpers">
+
+	<f:layout name="Content"/>
+
+	<f:section name="Configuration">
+			<flux:form id="teaser">
+
+			<flux:form.sheet name="Text" label="Text">
+				<flux:field.text name="settings.teasertext" label="Whatever" enableRichText="1" />
+			</flux:form.sheet>
+
+			<flux:form.sheet name="Image" label="Image">
+				<flux:field.file name="settings.images" multiple="FALSE" maxItems="1" label="Image"/>
+			</flux:form.sheet>
+
+		</flux:form>
+	</f:section>
+
+	<f:section name="Preview">
+
+	</f:section>
+
+	<f:section name="Main">
+		<div class="teaser-with-textarea" style="background-image: url(../{settings.images})">
+			<div class="textarea">
+				<h3>
+					<v:tag name="h{settings.content.settings.header.type -> v:or(alternative: record.header_layout) -> v:or(alternative: settings.header.type)}"
+						   class="{settings.content.settings.header.className}" hideIfEmpty="{settings.content.settings.header.hideIfEmpty -> v:or(alternative: 1)}">
+						{record.header -> f:format.raw()}
+					</v:tag>
+				</h3>
+
+				<f:format.html>{settings.teasertext}</f:format.html>
+			</div>
+		</div>
+	</f:section>
+</div>
+
+
+

@@ -1,5 +1,5 @@
 <?php
-namespace Wondrous\Moodpicture\Controller;
+namespace Wondrous\Teaser\Controller;
 
 /***************************************************************
  *  Copyright notice

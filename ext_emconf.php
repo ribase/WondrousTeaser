@@ -1,7 +1,7 @@
 <?php
 
 /***************************************************************
- * Extension Manager/Repository config file for ext "Wondrous.Moodpicture".
+ * Extension Manager/Repository config file for ext "Wondrous.Teaser".
  *
  * Auto generated 04-11-2015 15:04
  *
@@ -11,8 +11,8 @@
  ***************************************************************/
 
 $EM_CONF[$_EXTKEY] = array(
-	'title' => 'Moodpictures with Menu',
-	'description' => 'Moodpictures with Menu',
+	'title' => 'Teaser',
+	'description' => 'Teaser with Textarea',
 	'category' => 'misc',
 	'shy' => 0,
 	'version' => '0.0.1',
@@ -34,7 +34,7 @@ $EM_CONF[$_EXTKEY] = array(
 	'CGLcompliance_note' => '',
 	'constraints' => array(
 		'depends' => array(
-			'typo3' => '4.5-7.4.99',
+			'typo3' => '4.5-7.6.99',
 			'cms' => '',
 			'extbase' => '',
 			'fluid' => '',

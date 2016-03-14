@@ -1,0 +1,11 @@
+{
+    "name": "ribase/WondrousTeaser",
+    "type": "typo3-cms-extension",
+    "description": "todo",
+    "license": ["GPL-2.0+"],
+    "keywords": ["TYPO3 CMS", "WondrousTeaser"],
+    "support": {
+        "issues": "https://github.com/ribase/WondrousTeaser/"
+    },
+    "version": "0.0.1"
+}

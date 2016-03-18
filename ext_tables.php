@@ -5,5 +5,5 @@ if (!defined('TYPO3_MODE')) {
 
 TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile($_EXTKEY, 'Configuration/TypoScript', 'Teaser with Textarea');
 
-\FluidTYPO3\Flux\Core::registerProviderExtensionKey('Wondrous.Teaser', 'Content');
+\FluidTYPO3\Flux\Core::registerProviderExtensionKey('wondrousteaser', 'Content');
 

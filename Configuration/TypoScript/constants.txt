@@ -1,4 +1,4 @@
-plugin.tx_moodpicture.view {
+plugin.tx_wondrousteaser.view {
 	templateRootPaths.default = EXT:wondrousteaser/Resources/Private/Templates/
 	partialRootPaths.default = EXT:wondrousteaser/Resources/Private/Partials/
 	layoutRootPaths.default = EXT:wondrousteaser/Resources/Private/Layouts/

@@ -1,4 +1,4 @@
-plugin.tx_moodpicture {
+plugin.tx_teaser {
 	view {
 		templateRootPaths.0 = {$plugin.tx_teaser.view.templateRootPaths.default}
 		partialRootPaths.0 = {$plugin.tx_teaser.view.partialRootPaths.default}

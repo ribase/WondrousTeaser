@@ -1,4 +1,4 @@
-plugin.tx_moodpicture.view {
+plugin.tx_teaser.view {
 	templateRootPaths.default = EXT:teaser/Resources/Private/Templates/
 	partialRootPaths.default = EXT:teaser/Resources/Private/Partials/
 	layoutRootPaths.default = EXT:teaser/Resources/Private/Layouts/

@@ -1,5 +1,5 @@
-plugin.tx_wondrousteaser.view {
-	templateRootPaths.default = EXT:wondrousteaser/Resources/Private/Templates/
-	partialRootPaths.default = EXT:wondrousteaser/Resources/Private/Partials/
-	layoutRootPaths.default = EXT:wondrousteaser/Resources/Private/Layouts/
+plugin.tx_moodpicture.view {
+	templateRootPaths.default = EXT:teaser/Resources/Private/Templates/
+	partialRootPaths.default = EXT:teaser/Resources/Private/Partials/
+	layoutRootPaths.default = EXT:teaser/Resources/Private/Layouts/
 }

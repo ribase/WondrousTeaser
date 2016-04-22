@@ -1,8 +1,8 @@
-plugin.tx_wondrousteaser {
+plugin.tx_moodpicture {
 	view {
-		templateRootPaths.0 = {$plugin.tx_wondrousteaser.view.templateRootPaths.default}
-		partialRootPaths.0 = {$plugin.tx_wondrousteaser.view.partialRootPaths.default}
-		layoutRootPaths.0 = {$plugin.tx_wondrousteaser.view.layoutRootPaths.default}
+		templateRootPaths.0 = {$plugin.tx_teaser.view.templateRootPaths.default}
+		partialRootPaths.0 = {$plugin.tx_teaser.view.partialRootPaths.default}
+		layoutRootPaths.0 = {$plugin.tx_teaser.view.layoutRootPaths.default}
 	}
 	#By default the following settings only will have relevance if you have fluidcontent_core extension loaded
 	settings{

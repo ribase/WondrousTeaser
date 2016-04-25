@@ -10,6 +10,6 @@
     "version": "0.0.1",
     "replace": {
         "wondrous_teaser": "self.version",
-        "Vendor.Teaser": "self.version"
+        "Vendor.wondrousTeaser": "self.version"
     }
 }

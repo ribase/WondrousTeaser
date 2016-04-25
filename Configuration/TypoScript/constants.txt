@@ -1,5 +1,0 @@
-plugin.tx_wondrous_teaser.view {
-	templateRootPaths.default = EXT:wondrous_teaser/Resources/Private/Templates/
-	partialRootPaths.default = EXT:wondrous_teaser/Resources/Private/Partials/
-	layoutRootPaths.default = EXT:wondrous_teaser/Resources/Private/Layouts/
-}

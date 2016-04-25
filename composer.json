@@ -9,7 +9,7 @@
     },
     "version": "0.0.1",
     "replace": {
-        "Vendor.WondrousTeaser": "self.version",
-        "ribase/WondrousTeaser": "self.version"
+        "wondrous_teaser": "self.version",
+        "Vendor.WondrousTeaser": "self.version"
     }
 }

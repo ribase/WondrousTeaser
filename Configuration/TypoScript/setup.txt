@@ -1,4 +1,4 @@
-plugin.tx_wondrousteaser {
+plugin.tx_teaser_Content {
 	view {
 		templateRootPaths.0 = EXT:wondrous_teaser/Resources/Private/Templates/
 		partialRootPaths.0 = EXT:wondrous_teaser/Resources/Private/Partials/

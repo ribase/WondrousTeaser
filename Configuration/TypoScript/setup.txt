@@ -1,8 +1,8 @@
-plugin.tx_teaser_Content {
+plugin.tx_teaser {
 	view {
-		templateRootPaths.0 = EXT:wondrous_teaser/Resources/Private/Templates/
-		partialRootPaths.0 = EXT:wondrous_teaser/Resources/Private/Partials/
-		layoutRootPaths.0 = EXT:wondrous_teaser/Resources/Private/Layouts/
+		templateRootPaths.0 = EXT:teaser/Resources/Private/Templates/
+		partialRootPaths.0 = EXT:teaser/Resources/Private/Partials/
+		layoutRootPaths.0 = EXT:teaser/Resources/Private/Layouts/
 	}
 	#By default the following settings only will have relevance if you have fluidcontent_core extension loaded
 	settings{

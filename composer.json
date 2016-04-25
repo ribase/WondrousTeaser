@@ -9,7 +9,7 @@
     },
     "version": "0.0.1",
     "replace": {
-        "wondrous_teaser": "self.version",
+        "teaser": "self.version",
         "Wondrous.Teaser": "self.version"
     }
 }
